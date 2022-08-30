@@ -1,0 +1,57 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</head>
+<body>
+    
+    <div id="main">
+        <div class="menuDiv">
+            <div class="commonDiv">
+                <div class="menuItem" onclick="settings()">
+                    <ion-icon class="icon" name="settings-outline"></ion-icon>
+                    <span>Paramètre</span>
+                    <p>Ouvrir les paramètres</p>
+                </div>
+                <div class="menuItem" onclick="map()">
+                    <ion-icon class="icon" name="map-outline"></ion-icon>
+                    <span>Map</span>
+                    <p>Ouvrir la carte</p>
+                </div>
+            </div>
+            <div class="infoPlayer">
+                <div class="info">
+                    <ion-icon class="icon" name="play-outline" onclick="backup()"></ion-icon>
+                </div>
+
+                <div class="info">
+                    <ion-icon class="icon" name="keypad-outline" onclick="keymap()"></ion-icon>
+                </div>
+
+                <div class="info">
+                    <ion-icon class="icon" name="logo-discord" onclick="discord()"></ion-icon>
+                </div>
+                
+                <div class="info">
+                    <ion-icon class="icon" name="close-circle-outline" onclick="leave()"></ion-icon>
+                </div>
+            </div>
+            <div class="menuDiv2">
+                <div class="patchNot">
+                    <span>Réglement</span>
+                    <div class="flex-text">
+                        <p id="rules">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>

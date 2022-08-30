@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+* {
+  padding: 5px;
+  margin: 0;
+  box-sizing: border-box;
+  /* font-family: "Roboto", sans-serif; */
+  font-family: "Bebas Neue", cursive;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: default;
+}
+
+#main {
+    width: 1920px;
+    height: 1080px;
+    /* background: linear-gradient(0deg, rgba(34,51,134,0.8) 0%, rgba(200,200,200,0.8) 100%);; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menuDiv {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    height: 450px;
+    border-radius: 30px;
+    background: rgba(0, 0, 0, 0.4);
+    box-shadow: 1px 1px 25px 6px rgba(0, 0, 0, 0.82);
+}
+
+.commonDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.menuItem {
+    display: flex;
+    justify-content: unset;
+    align-items: center;
+    flex-direction: column;
+    width: 250px;
+    height: 150px;
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    box-shadow: 0px 4px 1px 0px rgba(88,105,233,255);
+    margin: 10px;
+}
+
+.menuItem:hover {
+    transition: all 0.1s 0s linear;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.menuDiv2 {
+    display: flex;
+    justify-items: unset;
+    align-items: center;
+    flex-direction: column;
+    width: 250px;
+    height: 320px;
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    box-shadow: 0px 4px 1px 0px rgba(88,105,233,255);
+    margin: 10px;
+}
+
+.patchNot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 230px;
+    height: 350px;
+}
+
+.patchNot span {
+    color: rgba(250,250,250,0.8);
+    font-size: 40px;
+}
+
+
+
+.flex-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 240px;
+    height: 255px;
+    overflow: auto;
+}
+
+.patchNot .flex-text p {
+    color: rgba(240, 240, 240, 0.8);
+}
+
+.patchNot .icon {
+    color: white;
+    width: 40px;
+    height: 40px;
+}
+
+.menuItem .icon {
+    color: rgb(224, 224, 224);
+    width: 80px;
+    height: 80px;
+}
+.menuItem span {
+    color: rgba(250,250,250,0.8);
+    font-size: 40px;
+    margin: 2px;
+}
+.menuItem p {
+    color: rgb(157,164,241);
+    font-size: 20px;
+}
+
+.infoPlayer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+    width: 150px;
+    height: 320px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 60px;
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 20px;
+    transition: all 0.1s 0s linear;
+}
+
+.info .icon {
+    height: 40px;
+    width: 40px;
+    color: rgba(88,105,233,255);
+}
+
+.info span {
+    color: rgb(157,164,241);
+    font-size: 15px;
+}
+
+.info:hover {
+    background: rgba(0, 0, 0, 0.5);
+}
